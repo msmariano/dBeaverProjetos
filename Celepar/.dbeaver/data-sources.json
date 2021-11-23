@@ -1,0 +1,412 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-17c146dfdf9-48665920521874be": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "can",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod15_sec.celepar.parana",
+				"port": "5433",
+				"database": "can",
+				"url": "jdbc:postgresql://pgprod15_sec.celepar.parana:5433/can",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e0a00-7482876a27f2d7c7": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "geo_desenvolvimento",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pggeodes.eparana.parana",
+				"port": "5432",
+				"database": "geo",
+				"url": "jdbc:postgresql://pggeodes.eparana.parana:5432/geo",
+				"home": "postgresql_client",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20"
+				},
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e1431-3c8727b715d2e4e7": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "iapdoc_consulta",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod10.eparana.parana",
+				"port": "5432",
+				"database": "iapdoc",
+				"url": "jdbc:postgresql://pgprod10.eparana.parana:5432/iapdoc",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e1eef-6d00fecb0948da0e": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "ide_ma",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "10.71.10.4",
+				"port": "5432",
+				"database": "ide_ma",
+				"url": "jdbc:postgresql://10.71.10.4:5432/ide_ma",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e2a0b-49ff843dc213ba00": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sa_ixd",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod18.celepar.parana",
+				"port": "5432",
+				"database": "ixd",
+				"url": "jdbc:postgresql://pgprod18.celepar.parana:5432/ixd",
+				"home": "postgresql_client",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20"
+				},
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e33c0-6478926d0a72bf03": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sga_geo_desenvolvimento",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgdesenv07.celepar.parana",
+				"port": "5432",
+				"database": "sga",
+				"url": "jdbc:postgresql://pgdesenv07.celepar.parana:5432/sga",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e3e10-78e551b75f54af09": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sga_geo_homologação",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pghomolog07.celepar.parana",
+				"port": "5432",
+				"database": "sga",
+				"url": "jdbc:postgresql://pghomolog07.celepar.parana:5432/sga",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e47d4-3cb4571662e904ef": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sga_geo_treinamento",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pghomolog07.celepar.parana",
+				"port": "5432",
+				"database": "sga_tre",
+				"url": "jdbc:postgresql://pghomolog07.celepar.parana:5432/sga_tre",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native",
+				"bootstrap": {
+					"txnIsolation": 1
+				}
+			},
+			"custom-properties": {
+				"gis.geometry.viewer.id": "browser"
+			}
+		},
+		"postgres-jdbc-17c146e50fc-53c269338c3e132b": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sga_homologação",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pghomolog07.celepar.parana",
+				"port": "5432",
+				"database": "sga",
+				"url": "jdbc:postgresql://pghomolog07.celepar.parana:5432/sga",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c146e5ac0-67e2189998367e2": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sguc_consulta",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod17_sec.celepar.parana",
+				"port": "5432",
+				"database": "sguc",
+				"url": "jdbc:postgresql://pgprod17_sec.celepar.parana:5432/sguc",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17c33fc3c92-4e1ccc7a85525453": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "grb_consulta_producao",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod15_sec.celepar.parana",
+				"port": "5433",
+				"database": "grb",
+				"url": "jdbc:postgresql://pgprod15_sec.celepar.parana:5433/grb",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17cf03a8544-3ea7eb57e108a2d": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "iqar_consulta_producao",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod16_sec.celepar.parana",
+				"port": "5433",
+				"database": "iqar",
+				"url": "jdbc:postgresql://pgprod16_sec.celepar.parana:5433/iqar",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17d05ba82f7-3d2d8aad20034d0f": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sgaIap_consulta",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod15_sec.celepar.parana",
+				"port": "5433",
+				"database": "sga",
+				"url": "jdbc:postgresql://pgprod15_sec.celepar.parana:5433/sga",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-17d0b64e825-5b138bdcd25097e": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "pir",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "pgprod18.celepar.parana",
+				"port": "5432",
+				"database": "pir",
+				"url": "jdbc:postgresql://pgprod18.celepar.parana:5432/pir",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mssql_jtds_legacy-17d15121a50-4eb4fec404ac7e2a": {
+			"provider": "mssql",
+			"driver": "mssql_jtds_legacy",
+			"name": "seguranca",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "sqldesenv01.eparana.parana",
+				"port": "1433",
+				"database": "seguranca",
+				"url": "jdbc:jtds:sqlserver://sqldesenv01.eparana.parana/seguranca",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-authentication@": "SQL_SERVER_PASSWORD",
+					"@dbeaver-show-all-schemas@": "false"
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

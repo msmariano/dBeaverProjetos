@@ -1,0 +1,1 @@
+select data_inclusao ,*from tb_animal order by data_inclusao 

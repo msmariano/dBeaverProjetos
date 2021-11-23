@@ -1,0 +1,1 @@
+select * from tb_log tl order by cod_log desc
